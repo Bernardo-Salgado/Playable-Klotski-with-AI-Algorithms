@@ -1,6 +1,10 @@
 # Red Duck Game (Klotski Solver)
 
-** A Python implementation of the classic Klotski puzzle game, featuring multiple solving algorithms: BFS, DFS, IDS, and A*. Play manually or solve puzzles using the solvers with visualization through a graphical interface built on Pygame. **
+A Python implementation of the classic Klotski puzzle game, featuring multiple solving algorithms: BFS, DFS, IDS, and A*. Play manually or solve puzzles using the solvers with visualization through a graphical interface built on Pygame.
+
+## Interface
+
+<img src="https://github.com/Bernardo-Salgado/Playable-Klotski-with-AI-Algorithms/blob/main/img/interface.png">
 
 ## Features
 

@@ -21,13 +21,14 @@ A Python implementation of the classic Klotski puzzle game, featuring multiple s
 ## Requirements
 
 Ensure the following Python packages are installed:
-python3
-pygame
-random
-heapq
-time
-psutil
-gc
+
+- python3
+- pygame
+- random
+- heapq
+- time
+- psutil
+- gc
 
 ### How to setup:
 
@@ -39,7 +40,10 @@ cd Playable-Klotski-with-AI-Algorithms
 ### Running the Game
 
 To start the game, run:
+
 python3 main.py
+
+
 
 Follow the graphical interface to play or select a solver. Solver results are displayed in the terminal after completion.
 

@@ -33,16 +33,19 @@ Ensure the following Python packages are installed:
 ### How to setup:
 
 1. Clone the repository:
+```bash
 git clone https://github.com/Bernardo-Salgado/Playable-Klotski-with-AI-Algorithms.git
-2. Install dependencies if not already available.
+```
+3. Install dependencies if not already available.
+```bash
 cd Playable-Klotski-with-AI-Algorithms
-
+```
 ### Running the Game
 
 To start the game, run:
-
+```bash
 python3 main.py
-
+```
 
 
 Follow the graphical interface to play or select a solver. Solver results are displayed in the terminal after completion.

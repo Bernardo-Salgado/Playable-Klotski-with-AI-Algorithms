@@ -1,53 +1,42 @@
-# Red Duck Game (Klotski Solver)
+# Red Duck Game - Klotski Puzzle Solver 🦆🦆🦆
 
-A Python implementation of the classic Klotski puzzle game, featuring multiple solving algorithms: BFS, DFS, IDS, and A*. Play manually or solve puzzles using the solvers with visualization through a graphical interface built on Pygame.
+![Game Interface](https://github.com/Bernardo-Salgado/Playable-Klotski-with-AI-Algorithms/blob/main/img/interface.png)
 
-## Interface
+An interactive Python implementation of the classic Klotski sliding block puzzle with multiple AI solving algorithms and Pygame visualization.
 
-<img src="https://github.com/Bernardo-Salgado/Playable-Klotski-with-AI-Algorithms/blob/main/img/interface.png">
+## Key Features
 
-## Features
+### Gameplay Options
+- 🖱️ **Interactive Play**: Drag and drop blocks manually
+- 🤖 **AI Solvers**: 
+  - BFS (Breadth-First Search)
+  - DFS (Depth-First Search) 
+  - IDS (Iterative Deepening Search)
+  - A* Algorithm (with heuristic)
+  - Greedy Best-First Search
+- 📊 **Performance Metrics**: Step count, time, and memory usage
 
-- Manual gameplay.
-- Multiple solving algorithms:
-  - Breadth-First Search (BFS)
-  - Depth-First Search (DFS)
-  - Iterative Deepening Search (IDS)
-  - A*
-  - Greedy Search
-- Real-time visualization of solutions.
-- Terminal output for solver results.
+### Visualization
+- 🎮 Real-time solution animation
+- 🔍 Step-by-step move highlighting
+- 📈 Algorithm comparison statistics
 
-## Requirements
+## Installation
 
-Ensure the following Python packages are installed:
+### Requirements
+- Python 3.8+
+- Pygame 2.0+
+- psutil (for memory tracking)
 
-- python3
-- pygame
-- random
-- heapq
-- time
-- psutil
-- gc
-
-### How to setup:
-
-1. Clone the repository:
+### Quick Start
 ```bash
 git clone https://github.com/Bernardo-Salgado/Playable-Klotski-with-AI-Algorithms.git
-```
-3. Install dependencies if not already available.
-```bash
 cd Playable-Klotski-with-AI-Algorithms
+pip install -r requirements.txt  # or: pip install pygame psutil
+python main.py
 ```
-### Running the Game
-
-To start the game, run:
-```bash
-python3 main.py
-```
-
 
 Follow the graphical interface to play or select a solver. Solver results are displayed in the terminal after completion.
 
-Enjoy solving the Red Duck Game! 
+Enjoy solving the Red Duck Game! 🦆
+

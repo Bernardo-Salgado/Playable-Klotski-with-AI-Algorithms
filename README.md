@@ -1,26 +1,42 @@
-Klotski Game Solver
-A Python implementation of the classic Klotski puzzle game, featuring multiple solving algorithms like BFS, DFS, IDS, and A*. The game can be played manually or solved using the provided solvers, with visualization and a graphical interface built using Pygame.
+# Red Duck Game - Klotski Puzzle Solver 🦆🦆🦆
 
-Requirements (to install):
+![Game Interface](https://github.com/Bernardo-Salgado/Playable-Klotski-with-AI-Algorithms/blob/main/img/interface.png)
 
-python3
-pygame
-random
-heapq
-time
-psutil
-gc
+An interactive Python implementation of the classic Klotski sliding block puzzle with multiple AI solving algorithms and Pygame visualization.
 
+## Key Features
 
-How to setup:
+### Gameplay Options
+- 🖱️ **Interactive Play**: Drag and drop blocks manually
+- 🤖 **AI Solvers**: 
+  - BFS (Breadth-First Search)
+  - DFS (Depth-First Search) 
+  - IDS (Iterative Deepening Search)
+  - A* Algorithm (with heuristic)
+  - Greedy Best-First Search
+- 📊 **Performance Metrics**: Step count, time, and memory usage
 
-git clone https://github.com/Bernardo-Salgado/RedSquareGame.git
-cd RedSquareGame
+### Visualization
+- 🎮 Real-time solution animation
+- 🔍 Step-by-step move highlighting
+- 📈 Algorithm comparison statistics
 
+## Installation
 
-How to run/use the program:
+### Requirements
+- Python 3.8+
+- Pygame 2.0+
+- psutil (for memory tracking)
 
-python3 main.py
+### Quick Start
+```bash
+git clone https://github.com/Bernardo-Salgado/Playable-Klotski-with-AI-Algorithms.git
+cd Playable-Klotski-with-AI-Algorithms
+pip install -r requirements.txt  # or: pip install pygame psutil
+python main.py
+```
 
+Follow the graphical interface to play or select a solver. Solver results are displayed in the terminal after completion.
 
-After all of this, you just need to use the graphical interface, and in the end (when using solvers) it outputs the results in the terminal.
+Enjoy solving the Red Duck Game! 🦆
+
